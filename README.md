@@ -7,7 +7,7 @@ This project leverages cutting-edge language models and web technologies to deli
 
 ## 🚀 Features
 
-- 🔧 **Locally Hosted LLM** (e.g., DeepSeek, LLaMA, Mistral, etc.)
+- 🔧 **Locally Hosted LLM** (DeepSeek)
 - 💬 Chat interface with streaming responses
 - 🔐 100% private – no external API calls
 - 🧠 Custom prompt engineering and persona behavior
@@ -19,9 +19,9 @@ This project leverages cutting-edge language models and web technologies to deli
 
 ## 🛠️ Tech Stack
 
-- **Language Model**: [Your model name, e.g., DeepSeek LLM] hosted via `Ollama` or `LM Studio`
-- **Backend**: Node.js / Python / FastAPI / Express *(mention your actual stack)*
-- **Frontend**: HTML + CSS + JavaScript *(or any framework used)*
+- **Language Model**: [DeepSeek LLM] hosted via `Ollama` or `LM Studio`
+- **Backend**:  Python / FastAPI 
+- **Frontend**: HTML + CSS + JavaScript 
 - **Deployment**: Self-hosted on VPS / Docker / Hostinger / NGINX
 - **Security**: CORS enabled, HTTPS supported (via Let's Encrypt / Cloudflare)
 
