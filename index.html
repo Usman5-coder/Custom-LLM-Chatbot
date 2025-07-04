@@ -329,7 +329,13 @@
                         'Authorization': ' Bearer sk-deepseek-xyz123'
                     },
                     body: JSON.stringify({
-                        prompt: message,
+                        "model": "gpt-4.1-mini",
+                        "messages": [
+                            {
+                                "role": "user",
+                                "content": message
+                            }
+                        ]
                     })
                 });
 
