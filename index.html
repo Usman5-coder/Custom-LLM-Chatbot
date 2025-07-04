@@ -350,7 +350,7 @@
                 
                 // Add bot response
                 // Adjust this based on your API response structure
-                const botMessage = data.response || data.message || data.reply || data.content || 'Sorry, I received an empty response.';
+                const botMessage = data.response || data.message || data.reply || data.choices[0].message.content || 'Sorry, I received an empty response.';
                 addMessage(botMessage, false);
 
             } catch (error) {
